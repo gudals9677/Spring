@@ -16,16 +16,21 @@ public class User5Service {
     public void insertUser5(User5DTO user5DTO){
         mapper.insertUser5(user5DTO);
     }
+
     public User5DTO selectUser5(String seq){
         return mapper.selectUser5(seq);
     }
+
     public List<User5DTO> selectUser5s(){
         return mapper.selectUser5s();
     }
+
     public void updateUser5(User5DTO user5DTO){
         mapper.updateUser5(user5DTO);
     }
+
     public void deleteUser5(String seq){
         mapper.deleteUser5(seq);
     }
 }
+

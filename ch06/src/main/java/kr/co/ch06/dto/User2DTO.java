@@ -15,4 +15,6 @@ public class User2DTO {
     private String name;
     private String birth;
     private String addr;
+    private int age;
+    private String email;
 }
